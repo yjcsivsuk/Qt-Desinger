@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"ws2812b_lhy_zzx\startup_stm32f103xb.o"
+"ws2812b_lhy_zzx\main.o"
+"ws2812b_lhy_zzx\gpio.o"
+"ws2812b_lhy_zzx\dma.o"
+"ws2812b_lhy_zzx\tim.o"
+"ws2812b_lhy_zzx\stm32f1xx_it.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_msp.o"
+"ws2812b_lhy_zzx\rgb.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_gpio_ex.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_tim.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_tim_ex.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_rcc.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_rcc_ex.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_gpio.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_dma.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_cortex.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_pwr.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_flash.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_flash_ex.o"
+"ws2812b_lhy_zzx\stm32f1xx_hal_exti.o"
+"ws2812b_lhy_zzx\system_stm32f1xx.o"
+--strict --scatter "ws2812b_lhy_zzx\ws2812b_lhy_zzx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ws2812b_lhy_zzx.map" -o ws2812b_lhy_zzx\ws2812b_lhy_zzx.axf
